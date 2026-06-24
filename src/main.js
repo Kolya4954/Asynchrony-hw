@@ -143,6 +143,8 @@ btnStart.addEventListener("click",()=>{
         if (isNaN(time)) {
             titleRef.textContent = "Введіть число"
         }
+
+        
         else{
             titleRef.textContent = `Я з'явилась після ${inputRef.value} секунд(-и)!`
         }
