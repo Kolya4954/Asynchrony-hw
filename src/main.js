@@ -132,6 +132,8 @@ function nextRound() {
 
 
 
+
+
 const btnStart = document.querySelector(".startTimout");
 const titleRef = document.querySelector(".message");
 const inputRef = document.querySelector(".time");
@@ -144,7 +146,7 @@ btnStart.addEventListener("click",()=>{
             titleRef.textContent = "Введіть число"
         }
 
-        
+
         else{
             titleRef.textContent = `Я з'явилась після ${inputRef.value} секунд(-и)!`
         }
