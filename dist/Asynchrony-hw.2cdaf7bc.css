@@ -1,0 +1,31 @@
+.div {
+  background-color: #000;
+  border: 1px solid gray;
+  width: 100px;
+  height: 100px;
+}
+
+.list {
+  gap: 30px;
+  list-style: none;
+  display: flex;
+}
+
+.btn {
+  border: 1px solid #000;
+  border-radius: 250%;
+  padding: 20px 30px;
+}
+
+.btn.red {
+  background-color: red;
+}
+
+.btn.green {
+  background-color: green;
+}
+
+.btn.blue {
+  background-color: #00f;
+}
+/*# sourceMappingURL=Asynchrony-hw.2cdaf7bc.css.map */

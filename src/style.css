@@ -1,0 +1,31 @@
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 1px solid grey;
+}
+
+
+.list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 20px 30px;
+    border-radius: 250%;
+}
+
+.btn.red{
+    background-color: red;
+}
+
+.btn.green{
+    background-color: green;
+}
+
+.btn.blue{
+    background-color: blue;
+}
